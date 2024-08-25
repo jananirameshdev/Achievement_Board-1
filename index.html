@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement Board</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Inter+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+        .outerbox {
+    width: 390px;
+    height: 844px;
+    background-color: #1B1924;
+    margin: 50px auto;
+    display: inline-block;
+    margin-left: 50px auto;
+    display: block;
+    flex-direction: column;
+}
+
+        img{
+            width: 90px;
+            height: 90px;
+            margin-top: 30px;
+            margin-left: 150px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        .achievement{
+            width: 242px;
+            height: 25px;
+            top: 159px;
+            margin-left: 74px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Josefin Sans;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 25px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+        textarea{
+    width: 317px;
+    height: 118px;
+    margin-top: 20px;
+    margin-left: 25px;
+    gap: 0px;
+    border-radius: 8px;
+    background-color: #444059;
+    outline: none;
+    border:none;
+    border-color: none;
+    resize: none;
+    padding: 12px;
+    color:white;
+}
+
+textarea::placeholder{
+    width: 282px;
+    height: 93px;
+    padding: 5px;
+    left: 55px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    color: #8F8F8F;
+}
+.publish_btn{
+    width: 343px;
+    height: 61px;
+    margin-top: 10px;
+    margin-left: 26px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: #04131C;
+    background-color: #28F154;
+}
+.endorsement{
+    width: 160px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.content1{
+Width:327px;
+height: auto;
+padding: 10px;
+margin-top: 10px;
+padding-top: 5px;
+margin-left: 25px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter ,sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: left;
+color: #1B1924;
+background: #FFFFFF;
+}
+.content div {
+    width:327px;
+    height: auto;
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 25px;  
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: #1B1924;       
+}
+
+.content1 {
+    display: flex;
+}
+
+     </style>
+    </head>
+<body>
+    <div class="outerbox">
+        <img src="https://s3-alpha-sig.figma.com/img/570e/56ba/2ab857703e586389e1cf9f0ce30e6e8b?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mLDW3gDJT70wJRm2wjCQ7-epjvPK25jsiyDFt7YJZeX-t0T3NTcPY2w2tOaAY9iThx3FiifhZJOwThcvbpe~rH9cKDj7iFkvDpSwNHdlOb3XHGsAXhnh9mDhRHFLVjwUGTSBb0omvxOl484khrdczTzoFialsxauUpxDImNN15yP-IoSSi2xP836jFkr-f1rDXXW4U0TFzhBYdY4jYq3eQ9uWg6oMjl~OddWG97IN82McAMaHPMJbJq~BSgguFZa-qsJq4BiDAJW0CdS7sVGLZmihrdeaVinbkBZRZvUhpCjVpSOfO5i-6FmryAiaF79sqzcK9aPfUQD7Ct4HY0ixw__">
+        <div class="achievement">
+            Achievements Board
+        </div>
+        <textarea class="text-area" placeholder="Write your endorsement here" onkeypress="return keyenter(event)"></textarea>
+        <button  class="publish_btn">Publish</button>
+        <div class="endorsement">- Endorsements - </div>
+        <div class="content1">
+                Michael crushed it at TechStar!  His creative ideas & focus on results make him a perfect fit for your Marketing Manager role. - Sarah, TechStar Inc. ⭐️
+            </div>
+        <div class="content1">
+                FitFlow's tracker keeps me crushing my workouts  and helps me understand my progress . It's a game-changer for anyone looking to reach their fitness goals!
+<br>From Maya Patel, Fitness Instructor ️‍♀️
+            </div>
+            <div class="content1">
+                Lisa Rodriguez's 'A Time of Honor' is a must-read ! Her research is on point  and brings the American Revolution to life 🇺🇸. History buffs won't be disappointed!💜 <br>Dr. David Chen, Stanford 
+            </div>
+            <div class="content">
+                
+            </div>
+    </div>
+    <script>
+       const input_box = document.querySelector(".text-area");
+       const output_box = document.querySelector(".content");
+       const btn = document.querySelector(".publish_btn");
+       const deleteHtml ='<i class="fa fa-trash-o" style="font-size:24px ; float:right" onclick="trash(event)"></i>';
+       output_box.innerHTML = localStorage.getItem('content');
+       btn.addEventListener('click',updateContent)
+        
+        function trash(event){
+        const divToRemove = event.target.closest('div');
+        divToRemove.remove();
+        localStorage.removeItem('content');
+       }
+       input_box.addEventListener('keypress',function(event)
+    {
+        if(event.keyCode == 13){
+            updateContent();
+        }
+    })
+            function updateContent () {
+            const userInput = input_box.value;
+            if(userInput ===""){
+                alert("please fill the endrosement field");
+            }
+            else{
+            const newDiv = document.createElement('div');
+            newDiv.innerHTML = userInput+deleteHtml;
+            output_box.appendChild(newDiv);
+            const store =output_box.innerHTML;
+            localStorage.setItem('content',store);
+            input_box.value =" ";
+        }
+    }
+    </script>
+  </body>
+</html>
